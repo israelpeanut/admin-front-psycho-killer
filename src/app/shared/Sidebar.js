@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
+import { Dropdown } from 'react-bootstrap';
 import { Trans } from 'react-i18next';
 
 class Sidebar extends Component {
