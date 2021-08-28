@@ -55,15 +55,15 @@ class Sidebar extends Component {
     return (
       <nav className="sidebar sidebar-offcanvas" id="sidebar">
         <div className="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-          <a className="sidebar-brand brand-logo" href="index.html"><img src={require('../../assets/images/admin_logo.png')} alt="logo" /></a>
-          <a className="sidebar-brand brand-logo-mini" href="index.html"><img src={require('../../assets/images/logo-mini.svg')} alt="logo" /></a>
+          <a className="sidebar-brand brand-logo" href="index.html"><img src={require('../../assets/images/peguita.png')} alt="logo" /></a>
+          <a className="sidebar-brand brand-logo-mini" href="index.html"><img src={require('../../assets/images/logo_shico.png')} alt="logo" /></a>
         </div>
         <ul className="nav">
           <li className="nav-item profile">
             <div className="profile-desc">
               <div className="profile-pic">
                 <div className="count-indicator">
-                  <img className="img-xs rounded-circle " src={require('../../assets/images/faces/face15.jpg')} alt="profile" />
+                  <img className="img-xs rounded-circle " src={require('../../assets/images/marce.png')} alt="profile" />
                   <span className="count bg-success"></span>
                 </div>
                 <div className="profile-name">
